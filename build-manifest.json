@@ -1,8 +1,8 @@
 {
   "scope": "Verified static increment; full parity release pending",
-  "sourceCommit": "f8f0d41771d1e36f2c221d1f7fec07529fee29c6",
-  "sourceInputSnapshotSha256": "f98d3f8bcb5c2d3445bcd5ab4e43010c2fc0475a7a6217774b11a9a8e80c29da",
-  "buildEvidenceSha256": "8e9e25152cc179d998f055c26dc8c229c9a4f1b4b2a77a77785a0ca5d8c7c208",
+  "sourceCommit": "835325a6e8db8a126ea9220acf4e73863bff82e8",
+  "sourceInputSnapshotSha256": "1e5af9322d4f493bf55d1a0c9f7eec35594e786e5c727b5b188ad184e7065c71",
+  "buildEvidenceSha256": "7c7d482fb3bb9efcaa93879cf693a3ebc5e7edb288ea58e147e135fabc29ee93",
   "outputSnapshotSha256": "1cce063288e5c0962292edb862ec3c1bf02bcb601eb59bc8a326292bc0a9f117",
   "files": [
     {
