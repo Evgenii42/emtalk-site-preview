@@ -1,14 +1,14 @@
 {
   "scope": "Verified static increment; full parity release pending",
-  "sourceCommit": "fdf4fc2ea82e42c45b6444c865892a8caf4564b4",
-  "sourceInputSnapshotSha256": "1f4ae1fca112fed28149759dfe9afa2cb1babb511c94fab960132204f3e5fa59",
-  "buildEvidenceSha256": "e52849ae57947d8e698bb24b61ef8012edfa0ef3074f3275136df94109a8892f",
-  "outputSnapshotSha256": "2e883197d0faf8e304c3d027413cd4c99053e92fb7eb45de7c36e131a3e34a51",
+  "sourceCommit": "8e2fdde5b6b286036823895fa63e924872403b6d",
+  "sourceInputSnapshotSha256": "7e5f6afc565f8df6c7f20afc9f04ce0965fc169b71cff7ed80f2d38e4b5b36e0",
+  "buildEvidenceSha256": "b9f249157d3f77aec8bb690b5e8dca02b9b6f43ec2ca6964ba8dfd211d5dbd06",
+  "outputSnapshotSha256": "675db296b1323b2dca464c3257a4b66c5236ed4a6094582d5fa3df036000fc0e",
   "files": [
     {
       "path": "404.html",
-      "bytes": 350,
-      "sha256": "b3b5ae9eba8c389e1119d1396afb0e6fe6dcb3aa61a8f371076a48183bcabeea"
+      "bytes": 1071,
+      "sha256": "2b128940fbd8eedee09c55cfe3dc898952f612fbdb4d20cfa77e0953d66c32db"
     },
     {
       "path": "about-us.html",
@@ -84,6 +84,11 @@
       "path": "bret.html",
       "bytes": 22534,
       "sha256": "c5b0ca94d9f4b687a712e21f2bfaf86334690ce2f0e2a81d1e810efc8e51080c"
+    },
+    {
+      "path": "css/404.a6565a3728fb10f60709607bf1ba2ce9fdca505dbbbeb8e0d469f8d194978762.css",
+      "bytes": 3818,
+      "sha256": "a6565a3728fb10f60709607bf1ba2ce9fdca505dbbbeb8e0d469f8d194978762"
     },
     {
       "path": "css/articles.a29524695498ddf722009f8e18c3145772f87983871b17cd5d1a33e4d48028e7.css",
