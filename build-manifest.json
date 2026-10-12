@@ -1,9 +1,9 @@
 {
   "scope": "Verified static increment; full parity release pending",
-  "sourceCommit": "e6e32b326b3322cf387197840f46ca64692ad7dd",
-  "sourceInputSnapshotSha256": "39357c35955f9860280e48b0028c0927a8a486911ecdcc129902987dfde53c95",
-  "buildEvidenceSha256": "17a9220498d899d19bca4b248903fb968aceb6f3ee0923e038f6b3a1ecfe2d17",
-  "outputSnapshotSha256": "46144a122a63452d803eba9f45e1ef1fe60f4ad06f9f3e704bc8804cc0bea836",
+  "sourceCommit": "a20682981564f31bd4e91cf4677816aad6dfd7df",
+  "sourceInputSnapshotSha256": "ff5079a4b51af1542fea83ddff0e947c30a27ed78bec4a09d373d9f0c06db199",
+  "buildEvidenceSha256": "4621404e4a3347811e1654adc01ada80afb766e5a6372e76724d92c04b317ab7",
+  "outputSnapshotSha256": "ade4c1cecfaf41ceb9747756bf1b3fc97d66ffae0792f0f638339598a4333aee",
   "files": [
     {
       "path": "404.html",
@@ -12,78 +12,78 @@
     },
     {
       "path": "about-us.html",
-      "bytes": 12965,
-      "sha256": "f6a759eaf58c15af56164214d012969a74bef915c5d0f0828c4352a09bc27599"
+      "bytes": 12966,
+      "sha256": "826b427f121e0ef5a06994cdecf3e6431fa893a4a9947984b9855c56f0824f8f"
     },
     {
       "path": "affirmations/af-01.html",
-      "bytes": 1843,
-      "sha256": "f30458b6b9c5957758fbc617a38fff0dfb3e3b8d151daa4e3d39c852c7c06234"
+      "bytes": 1844,
+      "sha256": "fd2cef1104ca9d3df0f4882657b253dae91c31f0d130f1406fb64628dd8c4223"
     },
     {
       "path": "affirmations/af-02.html",
-      "bytes": 1843,
-      "sha256": "73c3813d455f2387fa3f300de016e1bf670a796b634ea524481b6cdd42ec91c9"
+      "bytes": 1844,
+      "sha256": "1ef713e496dad69583df28e5834d700e64f4fcc9c06b58398126e8fc668b41c5"
     },
     {
       "path": "affirmations.html",
-      "bytes": 3800,
-      "sha256": "b5aa1118504bd1149866f2b7650b13ba57302cf3ee3a4d95b4a366f77b8d4586"
+      "bytes": 3801,
+      "sha256": "e62a7fa980a8094df6bdef951bd7ff5dfe2c91dd914cac751fe3ade5f9f5a4f7"
     },
     {
       "path": "articles/body-position-and-sleep-why-how-you-lie-down-matters-as-much-as-how-long.html",
-      "bytes": 16486,
-      "sha256": "c3ee8bc985ad0fd1ac8b3c7d3b34f2477e09f945361ef28f7e4523d7d7882eed"
+      "bytes": 16487,
+      "sha256": "60214dbc112c783033b8c1ef62739512555af392c1b59a69e6939ab0f594ab51"
     },
     {
       "path": "articles/burnout-prevention-vs-recovery.html",
-      "bytes": 19486,
-      "sha256": "0f1c1a3467212d1a04ef9c8c972b0160275eaec97e1ee6475b79370448a1e6eb"
+      "bytes": 19487,
+      "sha256": "19ea50fe941b1ec914479b997fc1ae9bbb59e44239d7cd3ad68b8a1843a5667c"
     },
     {
       "path": "articles/how-to-know-if-you-are-burned-out.html",
-      "bytes": 19643,
-      "sha256": "9b35525b2f32464f1d47cd680f45975276c2b35f9f024f3998e7a5809df23b6d"
+      "bytes": 19644,
+      "sha256": "35356e7a2dfe237b1f352c3863bdf2182aba1ff706a73a74b53129945efdb94d"
     },
     {
       "path": "articles/lights-out-how-light-quietly-runs-your-sleep-schedule.html",
-      "bytes": 16128,
-      "sha256": "bb0f6faa3d0520e39b6fd08ff608a1639155fe32f97d4c26038ad64e898a8e07"
+      "bytes": 16129,
+      "sha256": "c18de34ecbbaf13b3b251b63053398356986d2218bd32528c5602f1ced8e2bd1"
     },
     {
       "path": "articles/the-chemistry-behind-a-good-nights-sleep.html",
-      "bytes": 16510,
-      "sha256": "be6727abfeb61df66ce3aa7ed818117d01d5b5ee35861e303eb71c7025264fb6"
+      "bytes": 16511,
+      "sha256": "c71911b53e13173403654784e4210cc2966019fe96cba0f666ec92f11ee09e38"
     },
     {
       "path": "articles/the-sound-of-sleep-why-silence-isnt-always-the-goal.html",
-      "bytes": 17721,
-      "sha256": "a810c4a0dda9fabfceef26f706732946f00052c8f24f90350f01d9e17350a886"
+      "bytes": 17722,
+      "sha256": "c5fcd695abd6b5c1d4507f50fe2307bb815466f135c601f1d25bfcbeb8050799"
     },
     {
       "path": "articles/the-truth-about-how-much-sleep-you-need.html",
-      "bytes": 15640,
-      "sha256": "11529940ea18be2fded341ce78bf239d8697fbfd2a92009328b2f3caf50a81ac"
+      "bytes": 15641,
+      "sha256": "ff77fe9c2d4e64cf561477615be376ad58cca427d90a35b107a7f1ba5e0dabb8"
     },
     {
       "path": "articles/what-burnout-really-is-and-why-rest-alone-wont-fix-it.html",
-      "bytes": 18623,
-      "sha256": "6e786df89f7402390b914a8784893de9b10fcb451589a4d464874bad9d23fd70"
+      "bytes": 18624,
+      "sha256": "f64266a58366bce9dabb43c9c7346830d6ff97ed80654e074b6b0425d285e6ff"
     },
     {
       "path": "articles/why-sleep-matters.html",
-      "bytes": 16906,
-      "sha256": "6c1c458a88a59195d408fc24cfe6c479e3b8771748312c92e58e27538d8bda80"
+      "bytes": 16907,
+      "sha256": "be69a553f7124541cf35e16ad724b26413808b458386417c91829131a9b9223e"
     },
     {
       "path": "articles.html",
-      "bytes": 28511,
-      "sha256": "ee7c2e945ced63fb919b27023ea73e93f959aef47e594f1362ad8ad0c63c0a7a"
+      "bytes": 28512,
+      "sha256": "0b5cbff07b1f31eb25d5172daae0409ef5f4026f9f58f8cea012312526fe25e6"
     },
     {
       "path": "bret.html",
-      "bytes": 22533,
-      "sha256": "ed39a5e6308d7677e827918be9a7f06fc28bb9828a6da7ae9693adaf81b36d0b"
+      "bytes": 22534,
+      "sha256": "c5b0ca94d9f4b687a712e21f2bfaf86334690ce2f0e2a81d1e810efc8e51080c"
     },
     {
       "path": "css/pages/0353508463fee7cb.386660f20bcc8566542ac9c8ebb113612537c399ae0ddcae0f5fb3dafb1690da.css",
@@ -287,93 +287,93 @@
     },
     {
       "path": "dm.html",
-      "bytes": 24263,
-      "sha256": "d22010026765b9133e6922212604bdd2cd6b988fb567ecf9f84523d4d1e7badd"
+      "bytes": 24264,
+      "sha256": "e4f2af25bc70f76fa8b5f9e893bea101b77473ed347f9d11d975791b1e5d964d"
     },
     {
       "path": "documents/bret-delete-your-account-and-associated-data-v1.html",
-      "bytes": 7539,
-      "sha256": "4a003f74ac4514a73c6893610a0edef61f650826b4772979c729f15381beb24f"
+      "bytes": 7540,
+      "sha256": "872f81b53d737421fabb2260e0fb9df965877d5b1a1d574dd2696fe1fc86360d"
     },
     {
       "path": "documents/bret-delete-your-account-and-associated-data.html",
-      "bytes": 7564,
-      "sha256": "539af02b586f5a9f57656d92544eb5edc6ada34a2f8a619406d6ee31cdf3e088"
+      "bytes": 7565,
+      "sha256": "8054ba02011169ebb9929acb308ee761e48f2205aa8a2110526d8be589d75659"
     },
     {
       "path": "documents/bret-privacy-policy-v1.html",
-      "bytes": 15104,
-      "sha256": "d83f779321ae9cb3c48934015fcd5f30161e218b30dc65387161d20604569f0e"
+      "bytes": 15105,
+      "sha256": "5c14f11e86a9964273710a17e5c59b28d3ef050810ae47324c0becc77dcd621a"
     },
     {
       "path": "documents/bret-privacy-policy.html",
-      "bytes": 15129,
-      "sha256": "a1e250f9fbbbccc56dbf8b5b47bb30f3d3544a13109db43855591016f0c42f50"
+      "bytes": 15130,
+      "sha256": "bc23ee1290e6776f3d46d8318b3119a42f3138dda0cf8365579613079dd411e8"
     },
     {
       "path": "documents/bret-terms-and-conditions-of-use-v1.html",
-      "bytes": 32946,
-      "sha256": "4bba0bef53fbe90e6294ee97dd0875d8acd9bf723d3ae68a473182967fbb3332"
+      "bytes": 32947,
+      "sha256": "99a9905b4ce4a4da287d852a99319f5ab9967b6cd39ac12f4670595b4a591921"
     },
     {
       "path": "documents/bret-terms-and-conditions-of-use.html",
-      "bytes": 32971,
-      "sha256": "96bc4287aeb86c46c23b8e19a52fa4bfad64effe85fadedb5a788940c0dc4ed2"
+      "bytes": 32972,
+      "sha256": "d18346cfe042e4414e619dc7088b2d3f537d4f8cffd4a81abe1129ea282ab772"
     },
     {
       "path": "documents/dm-delete-your-account-and-associated-data-v1.html",
-      "bytes": 8348,
-      "sha256": "d176cd6f3aca61882a06eabab4e324300dea8d63154149f24069cdf8fd0adb4b"
+      "bytes": 8349,
+      "sha256": "2d972b583e7693635b73cc29eeecf86d3d74ea426440620c08f0d4327f334596"
     },
     {
       "path": "documents/dm-delete-your-account-and-associated-data.html",
-      "bytes": 8373,
-      "sha256": "b0a010cd1a194ee99c7b5f184600e2180e2b7c33496ae15a8b793e7c4aa127f5"
+      "bytes": 8374,
+      "sha256": "dd5174633d5d9bc6658ea797418ffa418cedadf4ca4c33f361852bd5e860a158"
     },
     {
       "path": "documents/dm-privacy-policy-v1.html",
-      "bytes": 14839,
-      "sha256": "da3819d1d3878abb107c443b3b5056a14801e6d931eaf2b497d5da4a39e3bf12"
+      "bytes": 14840,
+      "sha256": "972d62a0e5620787a1ff762ef47e2e0034f4b94e49fed9ba063ccdedffd4eea3"
     },
     {
       "path": "documents/dm-privacy-policy.html",
-      "bytes": 14864,
-      "sha256": "1250adfa3e41a1dc9ae4dba12772ea81a62e1c59339e26e0b903af4857c47005"
+      "bytes": 14865,
+      "sha256": "81a2cc82bc98b286e5abaf079f2b3d5391b803ba17ae2b6f5d67711a655a92ef"
     },
     {
       "path": "documents/dm-terms-and-conditions-of-use-v1.html",
-      "bytes": 39503,
-      "sha256": "b1f42b0231a507c831ae8ba26d03c4cc9661779ac0dada2c3d8d24266126d98b"
+      "bytes": 39504,
+      "sha256": "fa8cac611fd15d11b34127c80e52b558279baa8d33c8d4d10529b5374a62fbbe"
     },
     {
       "path": "documents/dm-terms-and-conditions-of-use.html",
-      "bytes": 39528,
-      "sha256": "fbc9ff5efca81c369c199cc444bdbe8e1a651e874df72139116626f9967a3f88"
+      "bytes": 39529,
+      "sha256": "e173bb6aaebedd9251def2b5163a651d3865851ca2bf27fe99527bca07092823"
     },
     {
       "path": "documents/emtalk-delete-your-account-and-associated-data.html",
-      "bytes": 8481,
-      "sha256": "779ed54c9c20da0309421782e25376825b72ca1144faf1246b8c9384de965e40"
+      "bytes": 8482,
+      "sha256": "c97598346055ce42a1a4c69044d1b08b4b9adcbda636f228157e36168a4a907a"
     },
     {
       "path": "documents/emtalk-privacy-policy.html",
-      "bytes": 13546,
-      "sha256": "f93b08306a6dd68e4b94b8ab3414d8a5f9a2d715394ca67cf4420fb233e42c97"
+      "bytes": 13547,
+      "sha256": "5814ced34df35566913484c922278ca7a087ee0e4b435ff76d27ef3b81e85f3f"
     },
     {
       "path": "documents/emtalk-terms-and-conditions-of-use.html",
-      "bytes": 14475,
-      "sha256": "b74233f1505593396e033a5e4392dd0a5aca1f23fcb0677500eb3773bc9107b1"
+      "bytes": 14476,
+      "sha256": "6f0b81d4edf06c55fec18c1141066123bd4f67fe07cbdba9f26112770474dcad"
     },
     {
       "path": "index.html",
-      "bytes": 20683,
-      "sha256": "d59b691d64939ca32a124d78f08a9e921f2ae45fa429356086f325108edab253"
+      "bytes": 20684,
+      "sha256": "0adb20eca8d25a9d98a8ed96060ef58b761a65ca3ff04a323a9dbaf91c88906f"
     },
     {
-      "path": "js/runtime.8d52f5b5083c220fcc7a88d4a0d01f8a4eb9886d0a2a0192525a0f99dd05891c.js",
-      "bytes": 27265,
-      "sha256": "8d52f5b5083c220fcc7a88d4a0d01f8a4eb9886d0a2a0192525a0f99dd05891c"
+      "path": "js/runtime.6d65e78e34720d2f47dade9f42535936fe5e00cb6f4e093203fdd1c775f9b2ce.js",
+      "bytes": 28145,
+      "sha256": "6d65e78e34720d2f47dade9f42535936fe5e00cb6f4e093203fdd1c775f9b2ce"
     },
     {
       "path": "media/01c03a9b2a8db29cac67-6966c5e750a519b527bf07df_Instargam.svg",
@@ -1037,38 +1037,38 @@
     },
     {
       "path": "tapl.html",
-      "bytes": 1643,
-      "sha256": "5c4f5252d75484a7fd7fd4ce193e7fe5b120aef9d11036993bc4c6ca3f78a664"
+      "bytes": 1644,
+      "sha256": "82f3884f17dd796559a126c19a3b8ea231dac2fc1a0392e93acbff24d0ecd10c"
     },
     {
       "path": "tests/maslach-burnout-inventory.html",
-      "bytes": 64181,
-      "sha256": "542e8061623409ab5883d2d5ae90bbaaf21431ac9baab65a285d3b2420aa0f0a"
+      "bytes": 64182,
+      "sha256": "3c85bf90df6a8b27f14666dcb72a48479ddf934d2c3f29f1c878dd1dd26b848d"
     },
     {
       "path": "tests/mobbing-test.html",
-      "bytes": 38823,
-      "sha256": "72f2ccadc595722882f5d82c7d063eaf51253201eb4b17d4f0ce69b98ce8aced"
+      "bytes": 38824,
+      "sha256": "c91010099c9b5880552067ff033ebf11df50a6cffa18c8697f6a37fc1d6f29fb"
     },
     {
       "path": "tests/motivation-test-by-gerchikov.html",
-      "bytes": 79381,
-      "sha256": "0d7e236a3d33724f38772120729e4438bd3eb45768619bbc86466b2acb1f950c"
+      "bytes": 79382,
+      "sha256": "4b2ee10f0c30b1ca71e4aaf135466514f2f16ead481127010292cf689c60137c"
     },
     {
       "path": "tests/social-phobia-inventory-spin.html",
-      "bytes": 49027,
-      "sha256": "6f98e97f3a8461d8ff5da0ca368d803630fb958a97d0de2ea59d0c26605c3255"
+      "bytes": 49028,
+      "sha256": "81ef01c4d022570abde5bfa4119192d3a40858279abd5fe545a90d6ec564d763"
     },
     {
       "path": "tests/spielberger-state-trait-anxiety-inventory.html",
-      "bytes": 85085,
-      "sha256": "29e3db502cbd74bd7a9d516b6aae75c94d8ad934db8344b96c135d0c5d6cb215"
+      "bytes": 85086,
+      "sha256": "eaf953ced82b946f2ff083a7231a02d2ee242b572957a5842617bcc4d5659ac2"
     },
     {
       "path": "tests.html",
-      "bytes": 15679,
-      "sha256": "09ad201c4aa09a698a2da19616a87780ab51c5b9831525a6ad907706be85fdc5"
+      "bytes": 15680,
+      "sha256": "6c4baa0bec51e739aaf5ff0185626cff6849062989f2f4d6b8e0476d89011d2e"
     }
   ]
 }
