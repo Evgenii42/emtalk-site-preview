@@ -1,9 +1,9 @@
 {
   "scope": "Verified static increment; full parity release pending",
-  "sourceCommit": "e841d41586e2842baea1201c77214952be5349c1",
-  "sourceInputSnapshotSha256": "8189df6381e9db921d60f15603f8ca9c0e29a148e7ba5660a87ea9b449bf633e",
-  "buildEvidenceSha256": "641dfce98a790122bd5d234597a183e227e655f05e29a255c7df8a094781d575",
-  "outputSnapshotSha256": "ade4c1cecfaf41ceb9747756bf1b3fc97d66ffae0792f0f638339598a4333aee",
+  "sourceCommit": "f8f0d41771d1e36f2c221d1f7fec07529fee29c6",
+  "sourceInputSnapshotSha256": "f98d3f8bcb5c2d3445bcd5ab4e43010c2fc0475a7a6217774b11a9a8e80c29da",
+  "buildEvidenceSha256": "8e9e25152cc179d998f055c26dc8c229c9a4f1b4b2a77a77785a0ca5d8c7c208",
+  "outputSnapshotSha256": "1cce063288e5c0962292edb862ec3c1bf02bcb601eb59bc8a326292bc0a9f117",
   "files": [
     {
       "path": "404.html",
@@ -364,6 +364,26 @@
       "path": "documents/emtalk-terms-and-conditions-of-use.html",
       "bytes": 14476,
       "sha256": "6f0b81d4edf06c55fec18c1141066123bd4f67fe07cbdba9f26112770474dcad"
+    },
+    {
+      "path": "font-licenses/COPYRIGHT-NOTICES.txt",
+      "bytes": 1279,
+      "sha256": "2f40f7e6aac8d21f6bb987f169c4d34834e2f66de1661cd40f7c41977cc8a1e5"
+    },
+    {
+      "path": "font-licenses/geologica/OFL.txt",
+      "bytes": 4400,
+      "sha256": "778186245840aea0e60bec6a46e7fb1442e0cd78e41afeadffcd3e8824b379e0"
+    },
+    {
+      "path": "font-licenses/manrope/OFL.txt",
+      "bytes": 4384,
+      "sha256": "e01b637272e0cbdfb240184dd98ea5cc671556d9894dae2668d92ab2c906787c"
+    },
+    {
+      "path": "font-licenses/oswald/OFL.txt",
+      "bytes": 4483,
+      "sha256": "0fd731a904b729a4e02eaf5e8ebd06783edd9abe400e8882760160230675b652"
     },
     {
       "path": "index.html",
