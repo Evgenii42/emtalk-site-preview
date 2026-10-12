@@ -1,9 +1,9 @@
 {
   "scope": "Verified static increment; full parity release pending",
-  "sourceCommit": "835325a6e8db8a126ea9220acf4e73863bff82e8",
-  "sourceInputSnapshotSha256": "1e5af9322d4f493bf55d1a0c9f7eec35594e786e5c727b5b188ad184e7065c71",
-  "buildEvidenceSha256": "7c7d482fb3bb9efcaa93879cf693a3ebc5e7edb288ea58e147e135fabc29ee93",
-  "outputSnapshotSha256": "1cce063288e5c0962292edb862ec3c1bf02bcb601eb59bc8a326292bc0a9f117",
+  "sourceCommit": "fdf4fc2ea82e42c45b6444c865892a8caf4564b4",
+  "sourceInputSnapshotSha256": "1f4ae1fca112fed28149759dfe9afa2cb1babb511c94fab960132204f3e5fa59",
+  "buildEvidenceSha256": "e52849ae57947d8e698bb24b61ef8012edfa0ef3074f3275136df94109a8892f",
+  "outputSnapshotSha256": "2e883197d0faf8e304c3d027413cd4c99053e92fb7eb45de7c36e131a3e34a51",
   "files": [
     {
       "path": "404.html",
@@ -32,48 +32,48 @@
     },
     {
       "path": "articles/body-position-and-sleep-why-how-you-lie-down-matters-as-much-as-how-long.html",
-      "bytes": 16487,
-      "sha256": "60214dbc112c783033b8c1ef62739512555af392c1b59a69e6939ab0f594ab51"
+      "bytes": 16689,
+      "sha256": "304e95c62da8985119aa3570a04fd745cafdd243a9336cf5e00cd1cb18b140d2"
     },
     {
       "path": "articles/burnout-prevention-vs-recovery.html",
-      "bytes": 19487,
-      "sha256": "19ea50fe941b1ec914479b997fc1ae9bbb59e44239d7cd3ad68b8a1843a5667c"
+      "bytes": 19689,
+      "sha256": "d846490054cc43d5922ce18a4390b00a3117cc652dae4553a428006146e2dd68"
     },
     {
       "path": "articles/how-to-know-if-you-are-burned-out.html",
-      "bytes": 19644,
-      "sha256": "35356e7a2dfe237b1f352c3863bdf2182aba1ff706a73a74b53129945efdb94d"
+      "bytes": 19846,
+      "sha256": "e32f0a9a4c9b9419e7c0769863ef9cccb687b99fd1e65c55d106a877e450b479"
     },
     {
       "path": "articles/lights-out-how-light-quietly-runs-your-sleep-schedule.html",
-      "bytes": 16129,
-      "sha256": "c18de34ecbbaf13b3b251b63053398356986d2218bd32528c5602f1ced8e2bd1"
+      "bytes": 16331,
+      "sha256": "3a38e222809a0127914651f02a1136562ad7c4485146df3a010c3a2c368820cc"
     },
     {
       "path": "articles/the-chemistry-behind-a-good-nights-sleep.html",
-      "bytes": 16511,
-      "sha256": "c71911b53e13173403654784e4210cc2966019fe96cba0f666ec92f11ee09e38"
+      "bytes": 16713,
+      "sha256": "33519288066170c3894ad623dcd77da43d138844578f56efa3d9f6c3cd6aa606"
     },
     {
       "path": "articles/the-sound-of-sleep-why-silence-isnt-always-the-goal.html",
-      "bytes": 17722,
-      "sha256": "c5fcd695abd6b5c1d4507f50fe2307bb815466f135c601f1d25bfcbeb8050799"
+      "bytes": 17924,
+      "sha256": "999c044d1ecd4b3459f134d1875d937978eb549e8b40f7df2899f146e3b3a166"
     },
     {
       "path": "articles/the-truth-about-how-much-sleep-you-need.html",
-      "bytes": 15641,
-      "sha256": "ff77fe9c2d4e64cf561477615be376ad58cca427d90a35b107a7f1ba5e0dabb8"
+      "bytes": 15843,
+      "sha256": "e7219cd429fe2fc62baf58d3039cd976198362f0057e47404a1078c0362694f6"
     },
     {
       "path": "articles/what-burnout-really-is-and-why-rest-alone-wont-fix-it.html",
-      "bytes": 18624,
-      "sha256": "f64266a58366bce9dabb43c9c7346830d6ff97ed80654e074b6b0425d285e6ff"
+      "bytes": 18826,
+      "sha256": "6241165c28cbdeaaeec0b16ec25166983f19e093b2ccc53f80a6e0cb3361e7c0"
     },
     {
       "path": "articles/why-sleep-matters.html",
-      "bytes": 16907,
-      "sha256": "be69a553f7124541cf35e16ad724b26413808b458386417c91829131a9b9223e"
+      "bytes": 17109,
+      "sha256": "7e0a4411480429e580c7a363d7e0a1b576c04de7b678cb01383e8be781ab431c"
     },
     {
       "path": "articles.html",
@@ -84,6 +84,11 @@
       "path": "bret.html",
       "bytes": 22534,
       "sha256": "c5b0ca94d9f4b687a712e21f2bfaf86334690ce2f0e2a81d1e810efc8e51080c"
+    },
+    {
+      "path": "css/articles.a29524695498ddf722009f8e18c3145772f87983871b17cd5d1a33e4d48028e7.css",
+      "bytes": 147,
+      "sha256": "a29524695498ddf722009f8e18c3145772f87983871b17cd5d1a33e4d48028e7"
     },
     {
       "path": "css/pages/0353508463fee7cb.386660f20bcc8566542ac9c8ebb113612537c399ae0ddcae0f5fb3dafb1690da.css",
