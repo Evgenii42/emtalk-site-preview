@@ -1,5 +1,11 @@
 /* EmTalk interface evolution. Presentation only; source content and controllers remain intact. */
 :root {
+  --emt-icon-check: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='m5 12 4 4L19 6' fill='none' stroke='black' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  --emt-icon-arrow: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M5 12h14m-6-6 6 6-6 6' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  --emt-icon-play: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M8 5v14l11-7z'/%3E%3C/svg%3E");
+  --emt-icon-pause: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M6 5h4v14H6zm8 0h4v14h-4z'/%3E%3C/svg%3E");
+  --emt-icon-cancel: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Crect x='6' y='6' width='12' height='12' rx='2'/%3E%3C/svg%3E");
+  --emt-icon-logo: url("../media/be3c9bbf364b96573039-699f41e3d7567d6efbb47cda_Large-Icon-Background.svg");
   --emt-ink: #261238;
   --emt-action: #5e3a7d;
   --emt-action-hover: #4b2b66;
@@ -12,7 +18,7 @@
 }
 
 /* Keep native semantics and give every interactive element a visible keyboard state. */
-html body :is(a, button, summary, [role="button"], [role="radio"], [role="checkbox"], [role="slider"]):focus-visible {
+html :is(a, button, summary, [role="button"], [role="radio"], [role="checkbox"], [role="slider"]):focus-visible {
   outline: 3px solid var(--emt-focus);
   outline-offset: 4px;
   box-shadow: 0 0 0 3px var(--emt-surface);
@@ -111,7 +117,7 @@ html[data-route-id="/"] :is(.link-block-9, .link-block-7) > div > div { color: i
   line-height: 24px;
 }
 .header-clean__mobile-panel { background: var(--emt-surface); border-radius: var(--emt-card-radius); box-shadow: 0 12px 36px #2612381a; }
-html body :is(.header-clean__mobile-panel, .header-clean__mobile-link) { text-shadow: none; }
+html :is(.header-clean__mobile-panel, .header-clean__mobile-link) { text-shadow: none; }
 .header-clean__menu-button { padding: 12px 16px; border-color: var(--emt-surface); box-shadow: 0 0 0 1px var(--emt-action); }
 .header-clean__menu-icon { position: relative; flex: 0 0 22px; width: 22px; height: 20px; font-size: 0; }
 .header-clean__menu-icon::before {
@@ -136,6 +142,8 @@ html[data-route-id="/articles"] .link-block-2, .tests-card-v2 {
 .tests-card-meta-v2 { color: var(--emt-action); }
 html[data-route-id="/articles"] .link-block-2 > .div-block-7 { background: transparent; box-shadow: none; border-radius: inherit; }
 .card-problem { border-radius: var(--emt-card-radius); }
+/* Keep the DM illustration geometry while containing its decorative overhang. */
+html[data-route-id="/dm"] .hero-dm { overflow-x: clip; }
 
 .answer-option {
   position: relative;
@@ -156,8 +164,8 @@ html[data-route-id="/articles"] .link-block-2 > .div-block-7 { background: trans
   width: 20px;
   height: 20px;
   background: currentColor;
-  -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='m5 12 4 4L19 6' fill='none' stroke='black' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") center / contain no-repeat;
-  mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='m5 12 4 4L19 6' fill='none' stroke='black' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") center / contain no-repeat;
+  -webkit-mask: var(--emt-icon-check) center / contain no-repeat;
+  mask: var(--emt-icon-check) center / contain no-repeat;
   pointer-events: none;
 }
 .answer-option .text-answer { color: var(--emt-ink); font-family: Manrope, Arial, sans-serif; font-size: 20px; line-height: 1.4; }
@@ -173,32 +181,35 @@ html[data-route-id="/articles"] .link-block-2 > .div-block-7 { background: trans
   width: 24px;
   height: 24px;
   background: currentColor;
-  -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M5 12h14m-6-6 6 6-6 6' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") center / contain no-repeat;
-  mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M5 12h14m-6-6 6 6-6 6' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") center / contain no-repeat;
+  -webkit-mask: var(--emt-icon-arrow) center / contain no-repeat;
+  mask: var(--emt-icon-arrow) center / contain no-repeat;
   pointer-events: none;
 }
 .nav-prev::after { transform: rotate(180deg); }
 :is(button, a, [role="button"])[aria-disabled="true"], button:disabled { cursor: not-allowed; }
 
-.emtalk-audio-player { background: var(--emt-surface); border: 1px solid var(--emt-line); border-radius: var(--emt-card-radius); box-shadow: 0 4px 16px #26123808; }
-.emtalk-player-ui__controls { background: #342044; border-radius: 16px; }
-.emtalk-player-ui__play { background: var(--emt-surface); color: #342044; border: 1px solid var(--emt-surface); }
-.emtalk-player-ui__play-icon {
+html[data-route-id] .emtalk-audio-player { background: var(--emt-surface); border: 1px solid var(--emt-line); border-radius: var(--emt-card-radius); box-shadow: 0 4px 16px #26123808; }
+html[data-route-id] :is(.emtalk-audio-player, .sp-track-wrapper .audio-player)[hidden] { display: none; }
+/* The interface owns the player skin. Specificity keeps it independent of
+   the source stylesheet order; base rules continue to own its grid geometry. */
+html[data-route-id] .emtalk-player-ui__controls { background: #342044; border-radius: 16px; }
+html[data-route-id] .emtalk-player-ui__play { background: var(--emt-surface); color: #342044; border: 1px solid var(--emt-surface); }
+html[data-route-id] .emtalk-player-ui__play-icon {
   border: 0;
   margin: 0;
   width: 24px;
   height: 24px;
   background: currentColor;
-  -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M8 5v14l11-7z'/%3E%3C/svg%3E") center / contain no-repeat;
-  mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M8 5v14l11-7z'/%3E%3C/svg%3E") center / contain no-repeat;
+  -webkit-mask: var(--emt-icon-play) center / contain no-repeat;
+  mask: var(--emt-icon-play) center / contain no-repeat;
 }
-.emtalk-player-ui__play[aria-label="Pause audio"] .emtalk-player-ui__play-icon { -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M6 5h4v14H6zm8 0h4v14h-4z'/%3E%3C/svg%3E"); mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M6 5h4v14H6zm8 0h4v14h-4z'/%3E%3C/svg%3E"); }
-.emtalk-player-ui__play[aria-label="Cancel audio loading"] .emtalk-player-ui__play-icon { -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Crect x='6' y='6' width='12' height='12' rx='2'/%3E%3C/svg%3E"); mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Crect x='6' y='6' width='12' height='12' rx='2'/%3E%3C/svg%3E"); }
-.emtalk-player-ui__progress { position: relative; height: 28px; background: transparent; overflow: visible; }
-.emtalk-player-ui__progress::before { content: ""; position: absolute; top: 11px; left: 0; right: 0; height: 6px; background: #9675bc; border-radius: 999px; pointer-events: none; }
-.emtalk-player-ui__progress-fill { position: absolute; top: 11px; height: 6px; background: var(--emt-surface); border-radius: 999px; pointer-events: none; }
-html body :is(.emtalk-player-ui__play, .emtalk-player-ui__progress):focus-visible { outline: 3px solid var(--emt-surface); outline-offset: 4px; box-shadow: none; }
-.emtalk-player-status { color: var(--emt-ink); }
+.emtalk-player-ui__play[data-player-action="pause"] .emtalk-player-ui__play-icon { -webkit-mask-image: var(--emt-icon-pause); mask-image: var(--emt-icon-pause); }
+.emtalk-player-ui__play[data-player-action="cancel"] .emtalk-player-ui__play-icon { -webkit-mask-image: var(--emt-icon-cancel); mask-image: var(--emt-icon-cancel); }
+html[data-route-id] .emtalk-player-ui__progress { position: relative; height: 28px; background: transparent; overflow: visible; }
+html[data-route-id] .emtalk-player-ui__progress::before { content: ""; position: absolute; top: 11px; left: 0; right: 0; height: 6px; background: #9675bc; border-radius: 999px; pointer-events: none; }
+html[data-route-id] .emtalk-player-ui__progress-fill { position: absolute; top: 11px; height: 6px; background: var(--emt-surface); border-radius: 999px; pointer-events: none; }
+html :is(.emtalk-player-ui__play, .emtalk-player-ui__progress):focus-visible { outline: 3px solid var(--emt-surface); outline-offset: 4px; box-shadow: none; }
+html[data-route-id] .emtalk-player-status { color: var(--emt-ink); }
 
 @media (hover: hover) {
   :is(.header-clean__cta, .header-clean__mobile-cta, .header-clean__menu-button, .global-button-primary, .button-primary-3, .test-retry-button, .link-block-8):hover { color: #fff; background: var(--emt-action-hover); border-color: var(--emt-action-hover); }
@@ -209,7 +220,7 @@ html body :is(.emtalk-player-ui__play, .emtalk-player-ui__progress):focus-visibl
   .answer-option:hover { border-color: var(--emt-action); }
   .nav-prev:hover { background: #efe5f7; }
   .nav-next:hover { background: var(--emt-action-hover); }
-  .emtalk-player-ui__play:hover { background: #efe5f7; }
+  html[data-route-id] .emtalk-player-ui__play:hover { background: #efe5f7; }
   .header-clean__menu-button:hover { border-color: var(--emt-surface); }
 }
 :is(.header-clean__cta, .header-clean__mobile-cta, .header-clean__menu-button, .global-button-primary, .button-primary-3, .test-retry-button, .tests-card-button-v2, .link-block-8):active {
@@ -237,11 +248,19 @@ html[data-route-id="/"] .link-block-7:active { background: #e6d7f0; border-color
 }
 
 @media (forced-colors: active) {
+  :is(.header-clean__menu-button, .header-clean__menu-button:hover, .header-clean__menu-button:active) { forced-color-adjust: none; color: CanvasText; background: Canvas; border-color: CanvasText; box-shadow: none; }
+  .header-clean__menu-icon { forced-color-adjust: none; color: CanvasText; }
+  .header-clean__mobile-panel { box-shadow: none; }
+  .header-clean__logo { position: relative; }
+  .header-clean__logo-image { opacity: 0; }
+  .header-clean__logo::after { content: ""; position: absolute; inset: 0; pointer-events: none; forced-color-adjust: none; background: CanvasText; -webkit-mask: var(--emt-icon-logo) center / contain no-repeat; mask: var(--emt-icon-logo) center / contain no-repeat; }
+  html :is(a, button, summary, [role="button"], [role="radio"], [role="checkbox"], [role="slider"]):focus-visible { outline-color: CanvasText; box-shadow: none; }
+  .answer-option.is-selected { border: 3px solid CanvasText; }
   .answer-option.is-selected::after { forced-color-adjust: none; background: CanvasText; }
-  .emtalk-player-ui__controls { background: Canvas; color: CanvasText; }
-  .emtalk-player-ui__controls * { color: CanvasText; }
-  html body :is(.emtalk-player-ui__play, .emtalk-player-ui__progress):focus-visible { outline-color: CanvasText; }
-  :is(.nav-prev, .nav-next, .emtalk-player-ui__play, .emtalk-player-ui__play:hover, .emtalk-player-ui__play:active) { forced-color-adjust: none; color: CanvasText; background: Canvas; border-color: CanvasText; }
-  .emtalk-player-ui__progress::before { background: Canvas; border: 1px solid CanvasText; box-sizing: border-box; }
-  .emtalk-player-ui__progress-fill { background: CanvasText; }
+  html[data-route-id] .emtalk-player-ui__controls { background: Canvas; color: CanvasText; }
+  html[data-route-id] .emtalk-player-ui__controls * { color: CanvasText; }
+  html :is(.emtalk-player-ui__play, .emtalk-player-ui__progress):focus-visible { outline-color: CanvasText; }
+  html[data-route-id] :is(.nav-prev, .nav-next, .emtalk-player-ui__play, .emtalk-player-ui__play:hover, .emtalk-player-ui__play:active) { forced-color-adjust: none; color: CanvasText; background: Canvas; border-color: CanvasText; }
+  html[data-route-id] .emtalk-player-ui__progress::before { background: Canvas; border: 1px solid CanvasText; box-sizing: border-box; }
+  html[data-route-id] .emtalk-player-ui__progress-fill { background: CanvasText; }
 }
