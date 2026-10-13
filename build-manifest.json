@@ -1,9 +1,9 @@
 {
   "scope": "Verified static increment; full parity release pending",
-  "sourceCommit": "686ff9730394342e8dd3fba5969eb919b28c65a4",
-  "sourceInputSnapshotSha256": "ab190e0210b1b10b32fccf04b160f1f91ef03610d7c5b3705112508847f744d1",
-  "buildEvidenceSha256": "ff2cba9431f314a153bc2492871eba08ec7ccd86d32e9b39fb91bf6052ea672e",
-  "outputSnapshotSha256": "80a816b65514e494b74717dde2f1b454db94d0e5f67c54b3255052e7ef0a31c8",
+  "sourceCommit": "0dcf885d4a143ce6612eba20e6bd71e10dec0f70",
+  "sourceInputSnapshotSha256": "2c2d124fc1777018175f6d6f68605a95a23279cbcbdfb073e93bcc2ed76e2919",
+  "buildEvidenceSha256": "e6baa57aa19bd0f05c173be43b521391df7acd57d33bab61b629c202d08fb52f",
+  "outputSnapshotSha256": "62b3bae58fc4a80516eff3deef28c1ab6e1f99bad568b968476167bdd31c5913",
   "files": [
     {
       "path": "404.html",
@@ -94,6 +94,11 @@
       "path": "css/articles.a29524695498ddf722009f8e18c3145772f87983871b17cd5d1a33e4d48028e7.css",
       "bytes": 147,
       "sha256": "a29524695498ddf722009f8e18c3145772f87983871b17cd5d1a33e4d48028e7"
+    },
+    {
+      "path": "css/homepage-explore.dfdd91968eb380143c5c7fb0625b6a695bd63811770d5863f109699079879c1f.css",
+      "bytes": 6246,
+      "sha256": "dfdd91968eb380143c5c7fb0625b6a695bd63811770d5863f109699079879c1f"
     },
     {
       "path": "css/interface.51c7ea4976494a3da7a7cca232355479ef07cc3502ba41e1806e76c6a787792f.css",
@@ -402,8 +407,13 @@
     },
     {
       "path": "index.html",
-      "bytes": 21592,
-      "sha256": "6565f987d80ea87a8b75c400fb8778788e512eb3be96415e6e42ebe37fb9762b"
+      "bytes": 23707,
+      "sha256": "a12faab81c771812984d8fd244403a5f9a437b0324bc7757e4f054f840df2927"
+    },
+    {
+      "path": "js/homepage-explore.e77588ca04d3e5fe430c8b9e180fef4c4418b7cef95915cbb78050f4f266afdf.js",
+      "bytes": 480,
+      "sha256": "e77588ca04d3e5fe430c8b9e180fef4c4418b7cef95915cbb78050f4f266afdf"
     },
     {
       "path": "js/runtime.46fdabdfafb4ef43fe1d225b47518039abc73e30fdd3122326fb6e78257ece91.js",
@@ -1014,6 +1024,21 @@
       "path": "media/fe50bcbf9992be216c8e-69c1c0d71357dc112032f5b1_Tapl-Screen-small.webp",
       "bytes": 5180,
       "sha256": "6f59648d5bc92c49e8c0614ce58d1cec75d19be3032704517a0fbc17e6add983"
+    },
+    {
+      "path": "media/home-explore-lake-1001.2cd8104b488f.webp",
+      "bytes": 133178,
+      "sha256": "2cd8104b488f5a9104ac14b93d7726689a7010fac1535d13609170256d160f85"
+    },
+    {
+      "path": "media/home-explore-lake-601.4b74e33eec55.webp",
+      "bytes": 76420,
+      "sha256": "4b74e33eec55fb718538881185f46bb222bb6f9a14f427d9925e5e95da8cfc9f"
+    },
+    {
+      "path": "media/home-explore-lake.4c65a31e0d11.webp",
+      "bytes": 224092,
+      "sha256": "4c65a31e0d11ef993104aea5c635c9a513b9e5a82cc603873006b5f6685784c1"
     },
     {
       "path": "media/mp3-114fadaee0d01e649081-e38bd3d5b46a2a90dabc-Article-3--sleep-sound.mp3",
