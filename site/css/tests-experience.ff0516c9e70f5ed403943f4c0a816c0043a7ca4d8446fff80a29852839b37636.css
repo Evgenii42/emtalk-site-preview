@@ -20,6 +20,14 @@
 .tests-scene__stars span:nth-child(5) {left:71%;top:61%;font-size:14px;animation-delay:-3s}
 .tests-scene__stars span:nth-child(6) {left:55%;top:48%;font-size:22px;animation-delay:-5s}
 @keyframes tests-starlight {from{opacity:.22;transform:scale(.8)}to{opacity:.9;transform:scale(1.1)}}
+/* Reuse Home's seven falling stars, timing and trajectory alongside the twinkles. */
+.tests-scene .emt-sky {position:absolute;inset:0;z-index:0;overflow:hidden;pointer-events:none}
+.tests-scene .emt-star {--size:7px;--drift:18px;--duration:7s;--delay:0s;position:absolute;top:-10%;left:var(--x);width:var(--size);height:var(--size);opacity:0;border-radius:50%;background:#fff5c9;box-shadow:0 0 7px 2px rgba(152,85,126,.42);animation:emt-star-fall var(--duration) linear var(--delay) infinite;will-change:transform,opacity}
+.tests-scene .emt-star::before,.tests-scene .emt-star::after {content:"";position:absolute;inset:50% auto auto 50%;background:inherit;border-radius:999px;transform:translate(-50%,-50%)}
+.tests-scene .emt-star::before {width:240%;height:24%}
+.tests-scene .emt-star::after {width:24%;height:240%}
+.tests-scene .emt-star--dot::before,.tests-scene .emt-star--dot::after {display:none}
+@keyframes emt-star-fall {0%{transform:translate3d(0,-6vh,0) rotate(0);opacity:0}10%{opacity:.88}68%{opacity:.72}82%,100%{transform:translate3d(var(--drift),70vh,0) rotate(55deg);opacity:0}}
 .tests-explore .tests-lead,.tests-experience .tests-lead {font-size:19px;line-height:1.6;max-width:570px;margin-top:22px}
 .tests-explore .tests-scene__note {font-size:13px;margin-top:24px;color:#5d476c}
 .tests-scene__note span {padding-inline:7px}
@@ -201,5 +209,6 @@
   .tests-experience .test-results-heading {font-size:24px}
 }
 @media(prefers-reduced-motion:reduce) {
+  .tests-scene .emt-sky {display:none}
   .tests-explore *,.tests-experience * {scroll-behavior:auto!important;transition:none!important;animation:none!important}
 }
