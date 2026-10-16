@@ -36,7 +36,7 @@
 
 
 
-<link rel="stylesheet" href="/emtalk-site-preview/css/tests-experience.8bf3986c924687c6cf99dfe9162a352f79aaa57e7bd34e22ecd046687c91101b.css" integrity="sha256-i/OYbJJGh8bPmd/pFio1L3mqpX57004i7NBGaHyREBs=">
+<link rel="stylesheet" href="/emtalk-site-preview/css/tests-experience.27891bebbbc1fa818fb929c9cc83e8807ebc6275d676a6936d1a1a217331e152.css" integrity="sha256-J4kb67vB&#43;oGPuSnJzIPogH68YnXWdqaTbRoaIXMx4VI=">
 </head>
 
 <body class="body-5">
@@ -91,28 +91,32 @@
 <main id="emtalk-main" class="tests-explore" tabindex="-1">
   <section class="tests-scene" aria-labelledby="tests-title">
     <picture><source media="(max-width: 479px)" srcset="/emtalk-site-preview/media/home-explore-lake-601.4b74e33eec55.webp"><source media="(max-width: 767px)" srcset="/emtalk-site-preview/media/home-explore-lake-1001.2cd8104b488f.webp"><img class="tests-scene__art" src="/emtalk-site-preview/media/home-explore-lake.4c65a31e0d11.webp" alt="" width="1505" height="1045" fetchpriority="high"></picture>
+    <div class="tests-scene__stars" aria-hidden="true"><span>&#10022;</span><span>&#10023;</span><span>&#10022;</span><span>&#10023;</span><span>&#10022;</span><span>&#10023;</span></div>
     <div class="tests-scene__content">
       <p class="tests-eyebrow">Understand myself</p>
-      <h1 id="tests-title">A little space to understand yourself.</h1>
-      <p class="tests-lead">Not sure what you are feeling? Start with what has been on your mind.</p>
+      <h1 id="tests-title">Find a test that fits you.</h1>
+      <p class="tests-lead">Start with what has been on your mind. See what a test explores before deciding to begin.</p>
       <p class="tests-scene__note">5 self-assessments <span aria-hidden="true">·</span> Free to explore <span aria-hidden="true">·</span> At your pace</p>
-      <a class="tests-text-link" href="#tests-list">Explore the tests <span aria-hidden="true">↓</span></a>
+      <a class="tests-text-link" href="#tests-list">Help me choose <span aria-hidden="true">↓</span></a>
     </div>
   </section>
-  <section id="tests-list" class="tests-library tests-width" aria-labelledby="tests-choose-title" tabindex="-1">
-    <div class="tests-library__heading"><div><p class="tests-eyebrow">Start with what matters to you</p><h2 id="tests-choose-title">What would you like to understand?</h2></div><p>You do not need to take every test. Choose one that feels relevant.</p></div>
-    <nav class="tests-topics" aria-label="Find a test by topic"><a href="#tests-energy">Work &amp; energy <span aria-hidden="true">↗</span></a><a href="#tests-anxiety">Worry &amp; anxiety <span aria-hidden="true">↗</span></a><a href="#tests-relationships">Workplace relationships <span aria-hidden="true">↗</span></a><a href="#tests-motivation">Motivation <span aria-hidden="true">↗</span></a></nav>
+  <section id="tests-list" class="tests-library tests-width" data-test-catalog aria-labelledby="tests-choose-title" tabindex="-1">
+    <div class="tests-library__heading"><div><p class="tests-eyebrow">Start with what matters to you</p><h2 id="tests-choose-title">What feels closest to your experience?</h2></div><p>Choose a focus, read what the test explores, then decide whether to begin. You do not need to take them all.</p></div>
+    <ol class="tests-choice-path" aria-label="How to choose a test"><li aria-current="step"><span>1</span> Choose your focus</li><li><span>2</span> Read about the test</li><li><span>3</span> Start at your pace</li></ol>
+    <form class="tests-focus-picker" hidden><fieldset><legend>Which sounds most like you?</legend><div class="tests-focus-options"><label class="tests-focus-option"><input type="radio" name="test-focus" value="maslach-burnout-inventory" data-focus-label="Work leaves me drained"><span>Work leaves me drained</span></label><label class="tests-focus-option"><input type="radio" name="test-focus" value="spielberger-state-trait-anxiety-inventory" data-focus-label="I feel anxious now or often"><span>I feel anxious now or often</span></label><label class="tests-focus-option"><input type="radio" name="test-focus" value="social-phobia-inventory-spin" data-focus-label="Social situations feel difficult"><span>Social situations feel difficult</span></label><label class="tests-focus-option"><input type="radio" name="test-focus" value="mobbing-test" data-focus-label="I feel excluded or mistreated at work"><span>I feel excluded or mistreated at work</span></label><label class="tests-focus-option"><input type="radio" name="test-focus" value="motivation-test-by-gerchikov" data-focus-label="I want to understand what motivates me"><span>I want to understand what motivates me</span></label></div></fieldset></form>
+    <div class="tests-selection-summary"><p class="tests-focus-status" role="status" aria-live="polite" aria-atomic="true">All five tests are shown. You can compare them below.</p><div class="tests-selection-actions"><a class="tests-see-choice" hidden>See this test <span aria-hidden="true">↓</span></a><button type="button" class="tests-show-all" hidden>Not sure? Compare all 5</button></div></div>
+    <nav class="tests-topics tests-focus-fallback" aria-label="Find a test by topic"><a href="#tests-energy">Work &amp; energy <span aria-hidden="true">↗</span></a><a href="#tests-anxiety">Worry &amp; anxiety <span aria-hidden="true">↗</span></a><a href="#tests-relationships">Workplace relationships <span aria-hidden="true">↗</span></a><a href="#tests-motivation">Motivation <span aria-hidden="true">↗</span></a></nav>
     
     <section id="tests-energy" class="tests-topic" aria-labelledby="tests-heading-energy" tabindex="-1">
       <div class="tests-topic__intro"><h3 id="tests-heading-energy">Work feels draining</h3><p>Explore how work has been affecting your energy and sense of accomplishment.</p></div>
       <div class="tests-topic__cards">
       
         
-        <article class="tests-choice">
+        <article class="tests-choice" id="test-choice-maslach-burnout-inventory" data-test-choice="maslach-burnout-inventory" tabindex="-1">
           <p class="tests-choice__meta">22 questions <span aria-hidden="true">·</span> About 10 min</p>
-          <h4>Feeling drained by work?</h4><p class="tests-choice__summary">Reflect on exhaustion, distance from work and your sense of accomplishment.</p>
+          <h4>Feeling drained by work?</h4><p class="tests-choice__summary">Reflect on exhaustion, distance from work and your sense of accomplishment.</p><p class="tests-choice__scope">Work and energy over the past few months.</p>
           <p class="tests-choice__method">Maslach Burnout Inventory</p>
-          <a class="tests-choice__link" href="/emtalk-site-preview/tests/maslach-burnout-inventory">Explore this test<span class="tests-sr">: Maslach Burnout Inventory</span> <span aria-hidden="true">↗</span></a>
+          <a class="tests-choice__link" href="/emtalk-site-preview/tests/maslach-burnout-inventory">Read about this test<span class="tests-sr">: Maslach Burnout Inventory</span> <span aria-hidden="true">↗</span></a>
         </article>
       
       </div>
@@ -123,19 +127,19 @@
       <div class="tests-topic__cards">
       
         
-        <article class="tests-choice">
+        <article class="tests-choice" id="test-choice-spielberger-state-trait-anxiety-inventory" data-test-choice="spielberger-state-trait-anxiety-inventory" tabindex="-1">
           <p class="tests-choice__meta">40 questions <span aria-hidden="true">·</span> About 12 min</p>
-          <h4>Anxious now, or often?</h4><p class="tests-choice__summary">Explore how anxious you feel right now and how you generally feel.</p>
+          <h4>Anxious now, or often?</h4><p class="tests-choice__summary">Explore how anxious you feel right now and how you generally feel.</p><p class="tests-choice__scope">Two parts: how you feel now and how you generally feel.</p>
           <p class="tests-choice__method">Spielberger State-Trait Anxiety Inventory</p>
-          <a class="tests-choice__link" href="/emtalk-site-preview/tests/spielberger-state-trait-anxiety-inventory">Explore this test<span class="tests-sr">: Spielberger State-Trait Anxiety Inventory</span> <span aria-hidden="true">↗</span></a>
+          <a class="tests-choice__link" href="/emtalk-site-preview/tests/spielberger-state-trait-anxiety-inventory">Read about this test<span class="tests-sr">: Spielberger State-Trait Anxiety Inventory</span> <span aria-hidden="true">↗</span></a>
         </article>
       
         
-        <article class="tests-choice">
+        <article class="tests-choice" id="test-choice-social-phobia-inventory-spin" data-test-choice="social-phobia-inventory-spin" tabindex="-1">
           <p class="tests-choice__meta">17 questions <span aria-hidden="true">·</span> About 5 min</p>
-          <h4>Do social situations feel difficult?</h4><p class="tests-choice__summary">Reflect on fear, avoidance and discomfort in social situations over the past week.</p>
+          <h4>Do social situations feel difficult?</h4><p class="tests-choice__summary">Reflect on fear, avoidance and discomfort in social situations over the past week.</p><p class="tests-choice__scope">Fear, avoidance and discomfort over the past week.</p>
           <p class="tests-choice__method">Social Phobia Inventory (SPIN)</p>
-          <a class="tests-choice__link" href="/emtalk-site-preview/tests/social-phobia-inventory-spin">Explore this test<span class="tests-sr">: Social Phobia Inventory (SPIN)</span> <span aria-hidden="true">↗</span></a>
+          <a class="tests-choice__link" href="/emtalk-site-preview/tests/social-phobia-inventory-spin">Read about this test<span class="tests-sr">: Social Phobia Inventory (SPIN)</span> <span aria-hidden="true">↗</span></a>
         </article>
       
       </div>
@@ -146,11 +150,11 @@
       <div class="tests-topic__cards">
       
         
-        <article class="tests-choice">
+        <article class="tests-choice" id="test-choice-mobbing-test" data-test-choice="mobbing-test" tabindex="-1">
           <p class="tests-choice__meta">20 questions <span aria-hidden="true">·</span> About 7 min</p>
-          <h4>Feeling pushed out at work?</h4><p class="tests-choice__summary">Reflect on experiences of bullying, exclusion or interference in your work.</p>
+          <h4>Feeling pushed out at work?</h4><p class="tests-choice__summary">Reflect on experiences of bullying, exclusion or interference in your work.</p><p class="tests-choice__scope">Specific experiences in your current workplace.</p>
           <p class="tests-choice__method">Mobbing Test</p>
-          <a class="tests-choice__link" href="/emtalk-site-preview/tests/mobbing-test">Explore this test<span class="tests-sr">: Mobbing Test</span> <span aria-hidden="true">↗</span></a>
+          <a class="tests-choice__link" href="/emtalk-site-preview/tests/mobbing-test">Read about this test<span class="tests-sr">: Mobbing Test</span> <span aria-hidden="true">↗</span></a>
         </article>
       
       </div>
@@ -161,11 +165,11 @@
       <div class="tests-topic__cards">
       
         
-        <article class="tests-choice">
+        <article class="tests-choice" id="test-choice-motivation-test-by-gerchikov" data-test-choice="motivation-test-by-gerchikov" tabindex="-1">
           <p class="tests-choice__meta">28 questions <span aria-hidden="true">·</span> About 10 min</p>
-          <h4>What makes work meaningful to you?</h4><p class="tests-choice__summary">Explore the different things that motivate you in your working life.</p>
+          <h4>What makes work meaningful to you?</h4><p class="tests-choice__summary">Explore the different things that motivate you in your working life.</p><p class="tests-choice__scope">Your preferences and what you value at work.</p>
           <p class="tests-choice__method">Motivation Test by Gerchikov</p>
-          <a class="tests-choice__link" href="/emtalk-site-preview/tests/motivation-test-by-gerchikov">Explore this test<span class="tests-sr">: Motivation Test by Gerchikov</span> <span aria-hidden="true">↗</span></a>
+          <a class="tests-choice__link" href="/emtalk-site-preview/tests/motivation-test-by-gerchikov">Read about this test<span class="tests-sr">: Motivation Test by Gerchikov</span> <span aria-hidden="true">↗</span></a>
         </article>
       
       </div>
@@ -184,6 +188,7 @@
 
 <script type="module" src="/emtalk-site-preview/js/runtime.c0877b0f7015a9e4a62aabd912234d7ddfb994ddfa50f11d1b39c23250cec4bb.js" integrity="sha256-wId7D3AVqeSmKqvZEiNNfd&#43;5lN36UPEdGznCMlDOxLs="></script>
 <script type="module" src="/emtalk-site-preview/js/site-navigation.111e1965351f9e9d8015b69c6a356555e48045a456d0212a463c491dd237f848.js" integrity="sha256-ER4ZZTUfnp2AFbacajVlVeSARaRW0CEqRjxJHdI3&#43;Eg="></script>
+<script type="module" src="/emtalk-site-preview/js/test-catalog.1b99ce96495262a04f171241cfbc47e2893de2622873a2d50689e46d9b31b319.js" integrity="sha256-G5nOlklSYqBPFxJBz7xH4ok94mIoc6LVBonkbZsxsxk="></script>
 
 
 </body>
