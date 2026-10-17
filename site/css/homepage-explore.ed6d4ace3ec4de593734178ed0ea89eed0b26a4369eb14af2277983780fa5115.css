@@ -18,6 +18,8 @@
   height:100%;
   object-fit:cover;
   object-position:center;
+  /* Shared lake grading matches the muted light of About and Articles. */
+  filter:saturate(.78) sepia(.12);
   z-index:0;
   pointer-events:none;
 }
@@ -28,6 +30,7 @@
   z-index:1;
   background:
     linear-gradient(180deg,rgba(40,28,55,0) calc(100% - 160px),#281c37 100%),
+    linear-gradient(rgba(215,190,211,.16),rgba(215,190,211,.16)),
     linear-gradient(180deg,rgba(254,233,251,.76),rgba(254,233,251,.12) 45%,rgba(254,233,251,.16));
   pointer-events:none;
 }

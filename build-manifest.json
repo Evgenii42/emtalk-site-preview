@@ -1,9 +1,9 @@
 {
   "scope": "Verified static increment; full parity release pending",
-  "sourceCommit": "c3549baa92daceac66e12e70183735f5155db942",
-  "sourceInputSnapshotSha256": "e65f0b4403dc24550779c10a8d298bd774937e385fd262447c5ba4246ee26e1c",
-  "buildEvidenceSha256": "79c8a2f104956a75e616f5b19e7d7b1ea609df8d7bd2dbe295e28e7355be1261",
-  "outputSnapshotSha256": "cf4234b9144e9cf689c25a14b143bd0d6e1ab38cb8566589fb88e76f46d73369",
+  "sourceCommit": "1645005a77ecc54bfd811b7b2636add0529447eb",
+  "sourceInputSnapshotSha256": "9723d0245d4f275989cad3ad1fa301b312596b28cb9762566dc279628823267b",
+  "buildEvidenceSha256": "2517bf7754cea8f19d231c643eb1340504d966b3028ffdf5cff0d34812aeb5eb",
+  "outputSnapshotSha256": "0b4ad56a0a620dd25d78e4a80b15183c1ad20f426ccbbce3f39ca4650b25c6c9",
   "files": [
     {
       "path": "404.html",
@@ -416,9 +416,9 @@
       "sha256": "9b7345de72c5047a647b787152fb21ceda775b0c630554fa6d8c219dad3a3d9a"
     },
     {
-      "path": "css/homepage-explore.06b31f47d058dfbdba69264f6ae5aafd02074c876c60c8cf92c590ee8ba772ac.css",
-      "bytes": 8739,
-      "sha256": "06b31f47d058dfbdba69264f6ae5aafd02074c876c60c8cf92c590ee8ba772ac"
+      "path": "css/homepage-explore.ed6d4ace3ec4de593734178ed0ea89eed0b26a4369eb14af2277983780fa5115.css",
+      "bytes": 8915,
+      "sha256": "ed6d4ace3ec4de593734178ed0ea89eed0b26a4369eb14af2277983780fa5115"
     },
     {
       "path": "css/intent-pages.15cfe209bf5dbbf4c83eb9bb174e0cc38e123484b89a52871dc52f56c7ce6029.css",
@@ -636,9 +636,9 @@
       "sha256": "4f79e97fcb01ef1658b3dc578e1179e96826882ee08c145d6a332f9c3be7eea9"
     },
     {
-      "path": "css/tests-experience.ff0516c9e70f5ed403943f4c0a816c0043a7ca4d8446fff80a29852839b37636.css",
-      "bytes": 22095,
-      "sha256": "ff0516c9e70f5ed403943f4c0a816c0043a7ca4d8446fff80a29852839b37636"
+      "path": "css/tests-experience.9a5e5110d15277cf06e6384563be39bd83b6d586664753016b2028832ce349a5.css",
+      "bytes": 22194,
+      "sha256": "9a5e5110d15277cf06e6384563be39bd83b6d586664753016b2028832ce349a5"
     },
     {
       "path": "dm/workspace.html",
@@ -748,7 +748,7 @@
     {
       "path": "index.html",
       "bytes": 16965,
-      "sha256": "21ebe4032c7ac0da06f7b0ca1cd5d3d6fea0c76c0d94a332db12acb4d42aa032"
+      "sha256": "5dc1d7e60e8b0f615773e068aa705a1df2cac3078d72a6d385f031d0ed4d7b21"
     },
     {
       "path": "js/article-catalog.ce0ce1fd64c0574dc31df5c1eba2a6485a95aa84b0b40f82be60a0c05b47451b.js",
@@ -1528,32 +1528,32 @@
     {
       "path": "tests/maslach-burnout-inventory.html",
       "bytes": 75053,
-      "sha256": "a123ec141b022a2cebd1880cc7229b45698aae86bc52e59184763f775425fab8"
+      "sha256": "8f5fdb975b0e6cd1d10ecb5ec9ee455e6083085875f8a8adb2b61854a51e4672"
     },
     {
       "path": "tests/mobbing-test.html",
       "bytes": 43371,
-      "sha256": "7ad299bb2fa38e3af43d09fafd201c26cc35284fee9d479d6b8d05666b3011c4"
+      "sha256": "0f6306a85b0cd7e6980bd72639a89dcf15c48c4c0ae56cacdfba45b90462732f"
     },
     {
       "path": "tests/motivation-test-by-gerchikov.html",
       "bytes": 81822,
-      "sha256": "1fa1dfd6441f6b41556e55b68f62b42a4c1489a571aa4fdd74ba63b3e89abfa5"
+      "sha256": "c530463b78a25d17fd067dcb61526696bdf8c24f7a66ac2e733d523689374248"
     },
     {
       "path": "tests/social-phobia-inventory-spin.html",
       "bytes": 51323,
-      "sha256": "eccf5d1f4d09b8ff21d60fdc2f435b724eff8ef23da2854bd4727be4d89db46f"
+      "sha256": "4ac7cc5a107faed790a9d4630fc8ae1514bfb3688f5386d2ad0ff87e38500df0"
     },
     {
       "path": "tests/spielberger-state-trait-anxiety-inventory.html",
       "bytes": 88193,
-      "sha256": "dae63e17c31c6dca48b80fbd9cef7c525212ad7ec86571c2dafa31864794f99b"
+      "sha256": "a4998bf88918f6c4ad75f2f3214c1157b218333b6fd13d9055fa97bde0b314f4"
     },
     {
       "path": "tests.html",
       "bytes": 20782,
-      "sha256": "79dcbc3fa90f24462f272081606094c3a1b57f3b0a341a7fd5fab829878c995f"
+      "sha256": "474d464f3c54a3a2a3eece9928ce80f4a398688f2ccec77bf6b28c5c8d57bd40"
     },
     {
       "path": "understand-myself.html",
