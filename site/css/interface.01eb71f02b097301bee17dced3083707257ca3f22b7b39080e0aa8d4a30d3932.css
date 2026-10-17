@@ -132,7 +132,7 @@ html :is(.header-clean__mobile-panel, .header-clean__mobile-link) { text-shadow:
   background: linear-gradient(45deg, transparent calc(50% - 1px), currentColor calc(50% - 1px), currentColor calc(50% + 1px), transparent calc(50% + 1px)), linear-gradient(-45deg, transparent calc(50% - 1px), currentColor calc(50% - 1px), currentColor calc(50% + 1px), transparent calc(50% + 1px));
 }
 
-html[data-route-id="/articles"] .link-block-2, .tests-card-v2 {
+.tests-card-v2 {
   border: 1px solid var(--emt-line);
   border-radius: var(--emt-card-radius);
   background: var(--emt-surface);
@@ -140,7 +140,7 @@ html[data-route-id="/articles"] .link-block-2, .tests-card-v2 {
   transition: border-color 160ms ease, box-shadow 160ms ease;
 }
 .tests-card-meta-v2 { color: var(--emt-action); }
-html[data-route-id="/articles"] .link-block-2 > .div-block-7 { background: transparent; box-shadow: none; border-radius: inherit; }
+
 .card-problem { border-radius: var(--emt-card-radius); }
 /* Keep the DM illustration geometry while containing its decorative overhang. */
 html[data-route-id="/dm"] .hero-dm { overflow-x: clip; }
@@ -215,7 +215,7 @@ html[data-route-id] .emtalk-player-status { color: var(--emt-ink); }
   :is(.header-clean__cta, .header-clean__mobile-cta, .header-clean__menu-button, .global-button-primary, .button-primary-3, .test-retry-button, .link-block-8):hover { color: #fff; background: var(--emt-action-hover); border-color: var(--emt-action-hover); }
   html[data-route-id="/"] .link-block-9:hover { background: var(--emt-action-hover); }
   html[data-route-id="/"] .link-block-7:hover, .header-clean__mobile-link:hover { background: #efe5f7; color: var(--emt-ink); }
-  html[data-route-id="/articles"] .link-block-2:hover, .tests-card-v2:hover { border-color: var(--emt-action); box-shadow: 0 8px 24px #26123812; }
+  .tests-card-v2:hover { border-color: var(--emt-action); box-shadow: 0 8px 24px #26123812; }
   .tests-card-v2:hover .tests-card-button-v2 { background: var(--emt-action-hover); }
   .answer-option:hover { border-color: var(--emt-action); }
   .nav-prev:hover { background: #efe5f7; }
@@ -236,7 +236,7 @@ html[data-route-id="/"] .link-block-9:active { background: var(--emt-action-pres
 html[data-route-id="/"] .link-block-7:active { background: #e6d7f0; border-color: var(--emt-action-pressed); }
 
 @media (max-width: 479px) {
-  html[data-route-id="/articles"] .collection-list-5 { grid-template-columns: minmax(0, 1fr); gap: 20px; }
+
   :is(.header-clean__cta, .header-clean__mobile-cta, .global-button-primary, .button-primary-3, .test-retry-button, .link-block-8) { max-width: 100%; padding: 12px 18px; }
   .tests-card-v2 { padding: 24px; }
   .answer-option { padding: 12px 44px 12px 12px; }
